@@ -1,7 +1,7 @@
 Revision history for Dist-Zilla-Plugin-HelpWanted
 
 {{$NEXT}}
+  - add 'tester' position.
 
 0.1.0     2012-06-28
-
   - First version, unleashed on an unsuspecting world.
