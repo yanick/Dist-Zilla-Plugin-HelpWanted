@@ -1,9 +1,24 @@
 Revision history for Dist-Zilla-Plugin-HelpWanted
 
 {{$NEXT}}
+ [API CHANGES]
 
-0.2.0     2012-06-28
+ [BUG FIXES]
+
+ [DOCUMENTATION]
+ - add 'Help Wanted' for MetaCPAN testing
+
+ [ENHANCEMENTS]
+
+ [NEW FEATURES]
+
+ [STATISTICS]
+
+0.2.0 2012-06-28
   - add 'tester' position.
+
+ [STATISTICS]
+ - code churn: 4 files changed, 77 insertions(+), 5 deletions(-)
 
 0.1.0     2012-06-28
   - First version, unleashed on an unsuspecting world.
