@@ -1,7 +1,0 @@
-^dist.ini
-^MANIFEST.SKIP
-Dist-Zilla-Plugin-HelpWanted.*
-^\.gitignore
-^\.git
-^\.build
-

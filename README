@@ -1,0 +1,42 @@
+NAME
+    Dist::Zilla::Plugin::HelpWanted - insert 'Help Wanted' information in
+    the distribution's META
+
+VERSION
+    version 0.1.0
+
+SYNOPSIS
+    In dist.ini:
+
+        [HelpWanted]
+        maintainer    = 1
+        co-maintainer = 1
+        coder         = 1
+        translator    = 1
+        documentation = 1
+
+DESCRIPTION
+    "Dist::Zilla::Plugin::HelpWanted" adds an "x_help_wanted" field in the
+    META information of the distribution.
+
+CONFIGURATION OPTIONS
+    Position that are passed to the plugin with a "true" value are added to
+    the *help wanted* list.
+
+    The list of possible positions is:
+
+    maintainer
+    co-maintainer
+    coder
+    translator
+    documentation
+
+AUTHOR
+    Yanick Champoux <yanick@cpan.org>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2012 by Yanick Champoux.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+

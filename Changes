@@ -1,5 +1,8 @@
 Revision history for Dist-Zilla-Plugin-HelpWanted
 
-{{$NEXT}}
+0.1.0 2012-06-28
+ - First version, unleashed on an unsuspecting world.
 
-  - First version, unleashed on an unsuspecting world.
+ [STATISTICS]
+ - code churn: 3 files changed, 78 insertions(+), 2 deletions(-)
+
