@@ -3,10 +3,15 @@ NAME
     the distribution's META
 
 VERSION
-    version 0.1.0
+    version 0.2.0
 
 SYNOPSIS
     In dist.ini:
+
+        [HelpWanted]
+        positions = maintainer co-maintainer coder translator documentation tester
+
+    or
 
         [HelpWanted]
         maintainer    = 1
@@ -14,14 +19,15 @@ SYNOPSIS
         coder         = 1
         translator    = 1
         documentation = 1
+        tester        = 1
 
 DESCRIPTION
     "Dist::Zilla::Plugin::HelpWanted" adds an "x_help_wanted" field in the
     META information of the distribution.
 
 CONFIGURATION OPTIONS
-    Position that are passed to the plugin with a "true" value are added to
-    the *help wanted* list.
+    Position are passed to the plugin either via the option "positions", or
+    piecemeal (see example above).
 
     The list of possible positions is:
 
@@ -30,6 +36,7 @@ CONFIGURATION OPTIONS
     coder
     translator
     documentation
+    tester
 
 AUTHOR
     Yanick Champoux <yanick@cpan.org>

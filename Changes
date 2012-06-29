@@ -1,8 +1,11 @@
 Revision history for Dist-Zilla-Plugin-HelpWanted
 
-0.1.0 2012-06-28
- - First version, unleashed on an unsuspecting world.
+0.2.0 2012-06-28
+ - add 'tester' position.
 
  [STATISTICS]
- - code churn: 3 files changed, 78 insertions(+), 2 deletions(-)
+ - code churn: 4 files changed, 77 insertions(+), 5 deletions(-)
+
+0.1.0 2012-06-28
+ - First version, unleashed on an unsuspecting world.
 
