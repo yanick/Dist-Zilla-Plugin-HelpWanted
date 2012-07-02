@@ -26,7 +26,7 @@ my %module_build_args = (
     "Yanick Champoux <yanick\@cpan.org>"
   ],
   "dist_name" => "Dist-Zilla-Plugin-HelpWanted",
-  "dist_version" => "0.2.0",
+  "dist_version" => "0.2.1",
   "license" => "perl",
   "module_name" => "Dist::Zilla::Plugin::HelpWanted",
   "recommends" => {},

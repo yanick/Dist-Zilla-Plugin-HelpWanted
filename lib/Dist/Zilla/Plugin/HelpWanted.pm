@@ -3,7 +3,7 @@ BEGIN {
   $Dist::Zilla::Plugin::HelpWanted::AUTHORITY = 'cpan:YANICK';
 }
 {
-  $Dist::Zilla::Plugin::HelpWanted::VERSION = '0.2.0';
+  $Dist::Zilla::Plugin::HelpWanted::VERSION = '0.2.1';
 }
 # ABSTRACT: insert 'Help Wanted' information in the distribution's META
 
@@ -66,7 +66,7 @@ Dist::Zilla::Plugin::HelpWanted - insert 'Help Wanted' information in the distri
 
 =head1 VERSION
 
-version 0.2.0
+version 0.2.1
 
 =head1 SYNOPSIS
 

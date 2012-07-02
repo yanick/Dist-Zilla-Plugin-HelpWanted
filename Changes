@@ -1,5 +1,12 @@
 Revision history for Dist-Zilla-Plugin-HelpWanted
 
+0.2.1 2012-07-02
+ [DOCUMENTATION]
+ - add 'Help Wanted' for MetaCPAN testing
+
+ [STATISTICS]
+ - code churn: 2 files changed, 18 insertions(+), 0 deletions(-)
+
 0.2.0 2012-06-28
  - add 'tester' position.
 

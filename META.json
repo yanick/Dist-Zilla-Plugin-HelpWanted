@@ -50,7 +50,7 @@
    "provides" : {
       "Dist::Zilla::Plugin::HelpWanted" : {
          "file" : "lib/Dist/Zilla/Plugin/HelpWanted.pm",
-         "version" : "v0.2.0"
+         "version" : "v0.2.1"
       }
    },
    "release_status" : "stable",
@@ -66,10 +66,13 @@
          "web" : "https://github.com/yanick/Dist-Zilla-Plugin-HelpWanted"
       }
    },
-   "version" : "0.2.0",
+   "version" : "0.2.1",
    "x_author_pledge" : {
       "version" : 1
    },
-   "x_authority" : "cpan:YANICK"
+   "x_authority" : "cpan:YANICK",
+   "x_help_wanted" : [
+      "coder"
+   ]
 }
 
