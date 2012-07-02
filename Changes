@@ -1,14 +1,12 @@
 Revision history for Dist-Zilla-Plugin-HelpWanted
 
 {{$NEXT}}
-
-0.2.1     2012-07-02
  [API CHANGES]
 
  [BUG FIXES]
 
  [DOCUMENTATION]
- - add 'Help Wanted' for MetaCPAN testing
+ - add link to OpenHatch (thanks Andy Lester!).
 
  [ENHANCEMENTS]
 
@@ -16,11 +14,13 @@ Revision history for Dist-Zilla-Plugin-HelpWanted
 
  [STATISTICS]
 
-0.2.0 2012-06-28
-  - add 'tester' position.
+0.2.1 2012-07-02
+ [DOCUMENTATION]
+ - add 'Help Wanted' for MetaCPAN testing
 
+0.2.0 2012-06-28
  [STATISTICS]
  - code churn: 4 files changed, 77 insertions(+), 5 deletions(-)
 
-0.1.0     2012-06-28
+0.1.0 2012-06-28
   - First version, unleashed on an unsuspecting world.

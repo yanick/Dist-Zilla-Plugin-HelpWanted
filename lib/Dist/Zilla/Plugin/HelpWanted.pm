@@ -98,3 +98,15 @@ sub setup_installer {
 __PACKAGE__->meta->make_immutable;
 no Moose;
 1;
+
+__END__
+
+=head1 SEE ALSO
+
+=over
+
+=item OpenHatch (L<http://openhatch.org/>) 
+
+A non-profit site dedicated to matching prospective free software contributors with communities, tools, and education. 
+
+=back
