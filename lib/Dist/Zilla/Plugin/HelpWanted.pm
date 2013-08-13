@@ -54,6 +54,7 @@ use strict;
 use warnings;
 
 use Moose;
+use List::MoreUtils qw(uniq);
 
 with qw/
     Dist::Zilla::Role::Plugin
@@ -67,7 +68,16 @@ my @positions = qw/
     translator 
     documentation
     tester 
+    documenter
+    developer
+    helper
 /;
+
+my %legacy = (
+    'co-maintainer'   => 'maintainer',
+    'coder'           => 'developer',
+    'documentation'   => 'documenter',
+);
 
 has [ @positions ] => (
     is => 'rw',
@@ -89,8 +99,12 @@ sub setup_installer {
             die "position '$p' not recognized\n";
     }
 
-    my @open_positions = grep { $self->$_ } @positions
-                         or return;
+    my @open_positions =
+        uniq
+        map { exists($legacy{$_}) ? $legacy{$_} : $_ }
+        grep { $self->$_ } @positions;
+
+    @open_positions or return;
 
     $self->zilla->distmeta->{x_help_wanted} = \@open_positions;
 }
