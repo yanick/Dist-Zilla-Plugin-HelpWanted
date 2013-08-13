@@ -6,18 +6,17 @@ package Dist::Zilla::Plugin::HelpWanted;
 In dist.ini:
 
     [HelpWanted]
-    positions = maintainer co-maintainer coder translator documentation tester
+    positions = maintainer developer translator documenter tester helper
 
 or
 
     [HelpWanted]
     maintainer    = 1
-    co-maintainer = 1
-    coder         = 1
+    developer     = 1
     translator    = 1
-    documentation = 1
+    documenter    = 1
     tester        = 1
-    
+    helper        = 1
 
 =head1 DESCRIPTION
 
@@ -30,21 +29,22 @@ distribution.
 Position  are passed to the plugin either via the 
 option C<positions>, or piecemeal (see example above).
 
-The list of possible positions is:
+The list of possible positions (inspired by
+L<DOAP|https://github.com/edumbill/doap/wiki>) is:
 
 =over
 
-=item    maintainer    
+=item    maintainer
 
-=item    co-maintainer
+=item    developer
 
-=item    coder       
+=item    translator
 
-=item    translator 
-
-=item    documentation
+=item    documenter
 
 =item    tester
+
+=item    helper
 
 =back
 
