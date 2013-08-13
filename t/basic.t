@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 
-use Test::More tests => 1;
+use Test::More 0.96;
 
 use Test::DZil;
 use Dist::Zilla::Plugin::MetaYAML;
@@ -41,6 +41,17 @@ sub dzil_yield
 
 is_deeply(
     dzil_yield(positions => 'maintainer co-maintainer documentation coder translator tester'),
-    [ sort qw( maintainer co-maintainer coder translator documentation tester ) ],
+    [ sort qw( maintainer developer translator documenter tester ) ],
 );
 
+is_deeply(
+    dzil_yield(tester => 1, coder => 1),
+    [ sort qw( developer tester ) ],
+);
+
+is_deeply(
+    dzil_yield(positions => 'helper documentation'),
+    [ sort qw( documenter helper ) ],
+);
+
+done_testing;
