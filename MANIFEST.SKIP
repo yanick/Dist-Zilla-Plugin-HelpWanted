@@ -1,3 +1,5 @@
+MYMETA.*
+^_build
 ^dist.ini
 ^MANIFEST.SKIP
 Dist-Zilla-Plugin-HelpWanted.*
@@ -5,3 +7,4 @@ Dist-Zilla-Plugin-HelpWanted.*
 ^\.git
 ^\.build
 
+^Build$
