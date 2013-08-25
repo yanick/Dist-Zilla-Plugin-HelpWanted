@@ -1,18 +1,15 @@
 Revision history for Dist-Zilla-Plugin-HelpWanted
 
 {{$NEXT}}
- [API CHANGES]
+ [ENHANCEMENTS]
+ - help positions changed to align with DOAP. [GH#1] (tobyink)
 
- [BUG FIXES]
-
+0.2.1 2012-07-02
  [DOCUMENTATION]
  - add link to OpenHatch (thanks Andy Lester!).
 
- [ENHANCEMENTS]
-
- [NEW FEATURES]
-
  [STATISTICS]
+ - code churn: 2 files changed, 18 insertions(+), 0 deletions(-)
 
 0.2.1 2012-07-02
  [DOCUMENTATION]
