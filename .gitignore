@@ -1,2 +1,6 @@
 /Dist-Zilla-Plugin-HelpWanted*
 .build
+Build
+MYMETA.json
+MYMETA.yml
+_build
