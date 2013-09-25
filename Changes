@@ -4,6 +4,8 @@ Revision history for Dist-Zilla-Plugin-HelpWanted
  [API CHANGES]
 
  [BUG FIXES]
+ - Dist::Zilla::Plugin::Test::Compile was causing test to potentially
+    hang on Windows. (reported by Karen Etheridge)
 
  [DOCUMENTATION]
 
