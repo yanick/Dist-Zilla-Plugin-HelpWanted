@@ -1,18 +1,11 @@
 Revision history for Dist-Zilla-Plugin-HelpWanted
 
-{{$NEXT}}
- [API CHANGES]
-
- [BUG FIXES]
-
+0.3.2 2025-06-25
  [DOCUMENTATION]
  - Remove mention of OpenHatch, as the foundation is gone. :-(
 
- [ENHANCEMENTS]
-
- [NEW FEATURES]
-
  [STATISTICS]
+ - code churn: 1 file changed, 24 insertions(+), 6 deletions(-)
 
 0.3.1 2013-09-25
  [BUG FIXES]
@@ -39,4 +32,3 @@ Revision history for Dist-Zilla-Plugin-HelpWanted
 
 0.1.0 2012-06-28
  - First version, unleashed on an unsuspecting world.
-
