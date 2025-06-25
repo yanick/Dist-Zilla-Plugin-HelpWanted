@@ -85,7 +85,7 @@ has [ @positions ] => (
     default => 0,
 );
 
-has 'positions' => (
+has positions => (
     is      => 'ro',
     isa     => 'Str',
     default => '',
@@ -104,9 +104,8 @@ sub setup_installer {
         map { exists($legacy{$_}) ? $legacy{$_} : $_ }
         grep { $self->$_ } @positions;
 
-    @open_positions or return;
-
-    $self->zilla->distmeta->{x_help_wanted} = \@open_positions;
+    $self->zilla->distmeta->{x_help_wanted} = \@open_positions
+        if @open_positions;
 }
 
 __PACKAGE__->meta->make_immutable;
@@ -115,12 +114,3 @@ no Moose;
 
 __END__
 
-=head1 SEE ALSO
-
-=over
-
-=item OpenHatch (L<http://openhatch.org/>) 
-
-A non-profit site dedicated to matching prospective free software contributors with communities, tools, and education. 
-
-=back

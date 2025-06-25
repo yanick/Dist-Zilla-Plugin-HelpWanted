@@ -6,6 +6,7 @@ Revision history for Dist-Zilla-Plugin-HelpWanted
  [BUG FIXES]
 
  [DOCUMENTATION]
+ - Remove mention of OpenHatch, as the foundation is gone. :-(
 
  [ENHANCEMENTS]
 
