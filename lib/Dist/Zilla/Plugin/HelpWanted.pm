@@ -50,8 +50,10 @@ L<DOAP|https://github.com/edumbill/doap/wiki>) is:
 
 =cut
 
-use strict;
+use 5.34.0;
 use warnings;
+
+use experimental qw/ signatures /;
 
 use Moose;
 use List::MoreUtils qw(uniq);
@@ -91,12 +93,11 @@ has positions => (
     default => '',
 );
 
-sub setup_installer {
-    my $self = shift;
+sub setup_installer($self) {
 
     for my $p ( split ' ', $self->positions ) {
-        eval { $self->$p(1) } or
-            die "position '$p' not recognized\n";
+        eval { $self->$p(1); 1; }
+            or die "position '$p' not recognized\n";
     }
 
     my @open_positions =
