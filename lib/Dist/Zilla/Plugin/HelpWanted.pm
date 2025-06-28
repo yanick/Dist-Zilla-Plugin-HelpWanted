@@ -53,10 +53,10 @@ L<DOAP|https://github.com/edumbill/doap/wiki>) is:
 use 5.34.0;
 use warnings;
 
-use experimental qw/ signatures /;
-
 use Moose;
 use List::MoreUtils qw(uniq);
+
+use experimental qw/ signatures /;
 
 with qw/
     Dist::Zilla::Role::Plugin

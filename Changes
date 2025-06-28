@@ -4,6 +4,8 @@ Revision history for Dist-Zilla-Plugin-HelpWanted
  [API CHANGES]
 
  [BUG FIXES]
+ - Move 'use experimental qw/ signatures /;' below `use Moose` 
+    to quiet the warning. (GH#3, robrwo)
 
  [DOCUMENTATION]
 
